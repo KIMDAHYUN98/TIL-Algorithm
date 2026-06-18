@@ -1,7 +1,1 @@
-function solution(numbers) {
-    let arr = [];
-    for(num of numbers) {
-        arr.push(num*2)
-    };
-    return arr;
-};
+const solution = (numbers) => numbers.map(e => e * 2)
