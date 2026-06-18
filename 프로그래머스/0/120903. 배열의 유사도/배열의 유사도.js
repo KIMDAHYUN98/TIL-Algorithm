@@ -1,0 +1,1 @@
+const solution = (s1, s2) => s1.filter(num => s2.includes(num)).length
