@@ -1,0 +1,1 @@
+const solution = (my_string) => my_string.match(/\d/g).reduce((e, c) => +e + +c ,0);
